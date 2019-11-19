@@ -1,0 +1,16 @@
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.exe
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.deps.json
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.runtimeconfig.json
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.runtimeconfig.dev.json
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.dll
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshBatch.pdb
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\Renci.SshNet.Async.dll
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\Renci.SshNet.dll
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\SshNet.Security.Cryptography.dll
+C:\dev\exercicios\SshBatch\SshBatch\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.csprojAssemblyReference.cache
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.AssemblyInfoInputs.cache
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.AssemblyInfo.cs
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.csproj.CopyComplete
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.dll
+C:\dev\exercicios\SshBatch\SshBatch\obj\Debug\netcoreapp3.0\SshBatch.pdb

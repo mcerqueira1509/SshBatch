@@ -1,0 +1,11 @@
+raspiberry.local 22 pi mypassword
+sleep 8s;echo line2
+#this line (as well as the empty lines) will be ignored
+
+pwd
+sleep 3s;echo line5
+#comment something
+
+ls
+
+#sleep 30s; something to test timeout
