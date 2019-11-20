@@ -6243,24 +6243,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\m15\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\exercicios\\SshBatch\\SshBatchTests\\SshBatchTests.csproj",
+      "projectUniqueName": "D:\\github\\SshBatch\\SshBatchTests\\SshBatchTests.csproj",
       "projectName": "SshBatchTests",
-      "projectPath": "C:\\dev\\exercicios\\SshBatch\\SshBatchTests\\SshBatchTests.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\exercicios\\SshBatch\\SshBatchTests\\obj\\",
+      "projectPath": "D:\\github\\SshBatch\\SshBatchTests\\SshBatchTests.csproj",
+      "packagesPath": "C:\\Users\\m15\\.nuget\\packages\\",
+      "outputPath": "D:\\github\\SshBatch\\SshBatchTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -6272,8 +6273,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj": {
-              "projectPath": "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj"
+            "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj": {
+              "projectPath": "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj"
             }
           }
         }
@@ -6319,7 +6320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

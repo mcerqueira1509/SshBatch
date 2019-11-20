@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29505.145
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshBatch", "SshBatch.csproj", "{67146075-9668-433F-B14F-5D713D1648F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SshBatch", "SshBatch.csproj", "{67146075-9668-433F-B14F-5D713D1648F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshBatchTests", "..\SshBatchTests\SshBatchTests.csproj", "{911C1893-5343-4CDF-812D-7F8972D7808B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldSshBatch", "..\OldSshBatch\OldSshBatch.csproj", "{F2418363-DA07-457B-9E15-9F8CC200F65F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SshBatchTests", "..\SshBatchTests\SshBatchTests.csproj", "{911C1893-5343-4CDF-812D-7F8972D7808B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{911C1893-5343-4CDF-812D-7F8972D7808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{911C1893-5343-4CDF-812D-7F8972D7808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{911C1893-5343-4CDF-812D-7F8972D7808B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F2418363-DA07-457B-9E15-9F8CC200F65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2418363-DA07-457B-9E15-9F8CC200F65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2418363-DA07-457B-9E15-9F8CC200F65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2418363-DA07-457B-9E15-9F8CC200F65F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

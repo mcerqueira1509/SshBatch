@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj": {}
+    "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj": {}
   },
   "projects": {
-    "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj": {
+    "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj",
+        "projectUniqueName": "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj",
         "projectName": "SshBatch",
-        "projectPath": "C:\\dev\\exercicios\\SshBatch\\SshBatch\\SshBatch.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\exercicios\\SshBatch\\SshBatch\\obj\\",
+        "projectPath": "D:\\github\\SshBatch\\SshBatch\\SshBatch.csproj",
+        "packagesPath": "C:\\Users\\m15\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\SshBatch\\SshBatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\m15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -61,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
