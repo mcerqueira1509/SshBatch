@@ -45,7 +45,7 @@ namespace SshBatch
                 lines = fileReader.ReadAllLines(args[0]);
                 if (lines.Length < 1)
                     return SetErroMessage("Error: batcth file was empty.");
-                configLine = lines[0].Split(' ');
+                configLine = lines[0].Split(' ').AsQueryable().Where(a => !string.IsNullOrEmpty(a)).ToArray();
                 if (configLine.Length < 4)
                     return SetErroMessage("Error: batch file with invalid arguments.");
             }
