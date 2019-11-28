@@ -4,10 +4,6 @@ using SshBatch;
 
 namespace SshBatchTests
 {
-    public interface IString
-    {
-        int Func(int x, int y);
-    }
     public partial class Tests
     {
         void PrepareSsh()
@@ -47,7 +43,7 @@ namespace SshBatchTests
         [Test]
         public void SpacesInConfigLine_SshIsExecuted()
         {
-            string filename = PrepareFile("OneCommand.txt", "  host  port     user  password", "ls");
+            string filename = PrepareFile("file.txt", "  host  port     user  password", "ls");
             string host = null, port = null, user = null, password = null;
             PrepareSsh();
             ssh.Setup(s => s.Setup(It.IsAny<string>(), It.IsAny<string>(),
@@ -77,7 +73,7 @@ namespace SshBatchTests
         [Test]
         public void TabsInConfigLine_SshIsExecuted()
         {
-            string filename = PrepareFile("OneCommand.txt", "   host     port       user    password", "ls");
+            string filename = PrepareFile("file.txt", "   host     port       user    password", "ls");
             string host = null, port = null, user = null, password = null;
             PrepareSsh();
             ssh.Setup(s => s.Setup(It.IsAny<string>(), It.IsAny<string>(),
