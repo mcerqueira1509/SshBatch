@@ -28,9 +28,9 @@ namespace SshBatch
                 return null;
             int waitTime = (nWaitTime is null) ? timeoutMiliseconds : (int)nWaitTime;
             var sshCmd = client.CreateCommand(textCmd);
-            var asynch = sshCmd.BeginExecute();
+            var asyncOp = sshCmd.BeginExecute();
             int elapsedTime = 0;
-            while ((!asynch.IsCompleted) && (elapsedTime < waitTime))
+            while ((!asyncOp.IsCompleted) && (elapsedTime < waitTime))
             {
                 Thread.Sleep(secondInMilis);
                 elapsedTime += secondInMilis;
@@ -38,7 +38,7 @@ namespace SshBatch
             if (CheckTimeout(waitTime, elapsedTime))
                 return string.Format("(Timeout Experied: Waited {0} seconds for command: {1} )", waitTime / secondInMilis, textCmd);
             var strmReader = new StreamReader(sshCmd.ExtendedOutputStream);
-            return strmReader.ReadToEnd() + sshCmd.EndExecute(asynch);
+            return strmReader.ReadToEnd() + sshCmd.EndExecute(asyncOp);
         }
 
         private static bool CheckTimeout(int waitTime, int elapsedTime)
